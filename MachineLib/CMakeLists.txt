@@ -18,6 +18,10 @@ set(SOURCE_FILES
         ActualMachine.cpp ActualMachine.h
         ConcreteMachineSystem.cpp ConcreteMachineSystem.h
         MachineC2Factory.cpp MachineC2Factory.h
+        Component.cpp
+        Component.h
+        Body.cpp
+        Body.h
 )
 
 # Removed:

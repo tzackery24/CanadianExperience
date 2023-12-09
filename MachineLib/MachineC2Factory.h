@@ -29,6 +29,8 @@ public:
     MachineC2Factory(std::wstring resourcesDir);
 
     std::shared_ptr<ActualMachine> Create();
+
+
 };
 
 #endif //CANADIANEXPERIENCE_MACHINEC2FACTORY_H

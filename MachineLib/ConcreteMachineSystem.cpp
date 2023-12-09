@@ -32,12 +32,7 @@ void ConcreteMachineSystem::DrawMachine(std::shared_ptr<wxGraphicsContext> graph
     graphics->Translate(mLocation.x, mLocation.y);
     graphics->Scale(mPixelsPerCentimeter, -mPixelsPerCentimeter);
 
-    // Be sure you put this before the PopState!
-    graphics->SetPen(*wxRED_PEN);
-    graphics->StrokeLine(-300, 0, 300, 0);
-    graphics->StrokeLine(0, 0, 0, 25);
-    graphics->StrokeLine(-300, 0, -300, 300);
-    graphics->StrokeLine(300, 0, 300, 300);
+    mMachine->Draw(graphics);
 
     graphics->PopState();
 }
@@ -59,4 +54,9 @@ void ConcreteMachineSystem::SetMachineNumber(int machine)
         // Create machine #2
         mMachine = std::make_shared<ActualMachine>(2);
     }
+
+    mMachine->Reset();
 }
+
+
+

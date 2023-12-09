@@ -6,7 +6,7 @@
 #include "pch.h"
 #include "MachineC2Factory.h"
 #include "ActualMachine.h"
-//#include "Body.h"
+#include "Body.h"
 //#include "Goal.h"
 //#include "Hamster.h"
 
@@ -34,24 +34,24 @@ std::shared_ptr<ActualMachine> MachineC2Factory::Create()
     // Notice: All dimensions are in centimeters and assume
     // the Y axis is positive in the up direction.
 
-//    const double FloorWidth = 600;
-//    const double FloorHeight = 15;
-//
-//    //
-//    // The floor
-//    //
-//    // The values are chosen so the top of the floor
-//    // is at Y=0
-//    //
-//    auto floor = std::make_shared<Body>();
-//    floor->Rectangle(-FloorWidth/2, -FloorHeight, FloorWidth, FloorHeight);
-//    floor->SetImage(mImagesDir + L"/floor.png");
-//    machine->AddComponent(floor);
+    const double FloorWidth = 600;
+    const double FloorHeight = 15;
+
+    //
+    // The floor
+    //
+    // The values are chosen so the top of the floor
+    // is at Y=0
+    //
+    auto floor = std::make_shared<Body>();
+    floor->GetPolygon()->Rectangle(-FloorWidth/2, -FloorHeight, FloorWidth, FloorHeight);
+    floor->GetPolygon()->SetImage(mImagesDir + L"/floor.png");
+    machine->AddComponent(floor);
 //
 //    //
 //    // The beam and wedges
 //    //
-//    const double BeamX = -25;
+    const double BeamX = -25;
 //    auto beam1 = std::make_shared<Body>();
 //    beam1->BottomCenteredRectangle(400, 20);
 //    beam1->SetImage(mImagesDir + L"/beam.png");
@@ -66,17 +66,17 @@ std::shared_ptr<ActualMachine> MachineC2Factory::Create()
 //    wedge1->SetImage(mImagesDir + L"/wedge.png");
 //    wedge1->SetInitialPosition(BeamX-175, 320);
 //    machine->AddComponent(wedge1);
-//
-//    //
-//    // Basketball
-//    //
-//    auto basketball1 = std::make_shared<Body>();
-//    basketball1->Circle(12);
-//    basketball1->SetImage(mImagesDir + L"/basketball1.png");
-//    basketball1->SetInitialPosition(BeamX-186, 353);
-//    basketball1->SetDynamic();
-//    basketball1->SetPhysics(1, 0.5, 0.6);
-//    machine->AddComponent(basketball1);
+
+    //
+    // Basketball
+    //
+    auto basketball1 = std::make_shared<Body>();
+    basketball1->Circle(12);
+    basketball1->SetImage(mImagesDir + L"/basketball1.png");
+    basketball1->SetInitialPosition(BeamX-186, 353);
+    basketball1->SetDynamic();
+    basketball1->SetPhysics(1, 0.5, 0.6);
+    machine->AddComponent(basketball1);
 //
 //    //
 //    // The hamster motor for the second-beam

@@ -23,6 +23,10 @@ private:
     std::shared_ptr<ActualMachine> mMachine;
     /// The resources directory
     std::wstring mResourcesDir;
+    /// The current machine frame
+    int mFrame = 0;
+    /// The frame rate
+    double mFrameRate = 30;
 public:
     /**
     * Set the position for the root of the machine
@@ -52,7 +56,7 @@ public:
      * Set the expected frame rate in frames per second
      * @param rate Frame rate in frames per second
      */
-    virtual void SetFrameRate(double rate) { }
+    virtual void SetFrameRate(double rate) { mFrameRate = rate; }
 
     /**
     * Set the machine number
@@ -78,6 +82,8 @@ public:
      * @param flag Flag to set
      */
     virtual void SetFlag(int flag) {}
+
+
 
     ConcreteMachineSystem(std::wstring resourcesDir);
 };

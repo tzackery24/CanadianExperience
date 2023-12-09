@@ -524,6 +524,22 @@ build MachineLib/CMakeFiles/MachineLib.dir/MachineC2Factory.cpp.o: CXX_COMPILER_
   OBJECT_DIR = MachineLib/CMakeFiles/MachineLib.dir
   OBJECT_FILE_DIR = MachineLib/CMakeFiles/MachineLib.dir
 
+build MachineLib/CMakeFiles/MachineLib.dir/Component.cpp.o: CXX_COMPILER__MachineLib_unscanned_Debug /Volumes/TZPassport/CSE335/Project2Starter/MachineLib/Component.cpp | MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MachineLib
+  DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
+  DEP_FILE = MachineLib/CMakeFiles/MachineLib.dir/Component.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx
+  INCLUDES = -I/Volumes/TZPassport/CSE335/Project2Starter/CanadianExperienceLib -I/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/include/box2d -I/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/src/../include -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2
+  OBJECT_DIR = MachineLib/CMakeFiles/MachineLib.dir
+  OBJECT_FILE_DIR = MachineLib/CMakeFiles/MachineLib.dir
+
+build MachineLib/CMakeFiles/MachineLib.dir/Body.cpp.o: CXX_COMPILER__MachineLib_unscanned_Debug /Volumes/TZPassport/CSE335/Project2Starter/MachineLib/Body.cpp | MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.pch || cmake_object_order_depends_target_MachineLib
+  DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
+  DEP_FILE = MachineLib/CMakeFiles/MachineLib.dir/Body.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx
+  INCLUDES = -I/Volumes/TZPassport/CSE335/Project2Starter/CanadianExperienceLib -I/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/include/box2d -I/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/src/../include -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2
+  OBJECT_DIR = MachineLib/CMakeFiles/MachineLib.dir
+  OBJECT_FILE_DIR = MachineLib/CMakeFiles/MachineLib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target MachineLib
@@ -532,7 +548,7 @@ build MachineLib/CMakeFiles/MachineLib.dir/MachineC2Factory.cpp.o: CXX_COMPILER_
 #############################################
 # Link the static library MachineLib/libMachineLib.a
 
-build MachineLib/libMachineLib.a: CXX_STATIC_LIBRARY_LINKER__MachineLib_Debug MachineLib/CMakeFiles/MachineLib.dir/MachineSystemFactory.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineStandin.cpp.o MachineLib/CMakeFiles/MachineLib.dir/Polygon.cpp.o MachineLib/CMakeFiles/MachineLib.dir/DebugDraw.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineDialog.cpp.o MachineLib/CMakeFiles/MachineLib.dir/PhysicsPolygon.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ContactListener.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineSystemStandin.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ActualMachine.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ConcreteMachineSystem.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineC2Factory.cpp.o || _deps/box2d-build/bin/libbox2d.a
+build MachineLib/libMachineLib.a: CXX_STATIC_LIBRARY_LINKER__MachineLib_Debug MachineLib/CMakeFiles/MachineLib.dir/MachineSystemFactory.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineStandin.cpp.o MachineLib/CMakeFiles/MachineLib.dir/Polygon.cpp.o MachineLib/CMakeFiles/MachineLib.dir/DebugDraw.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineDialog.cpp.o MachineLib/CMakeFiles/MachineLib.dir/PhysicsPolygon.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ContactListener.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineSystemStandin.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ActualMachine.cpp.o MachineLib/CMakeFiles/MachineLib.dir/ConcreteMachineSystem.cpp.o MachineLib/CMakeFiles/MachineLib.dir/MachineC2Factory.cpp.o MachineLib/CMakeFiles/MachineLib.dir/Component.cpp.o MachineLib/CMakeFiles/MachineLib.dir/Body.cpp.o || _deps/box2d-build/bin/libbox2d.a
   ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.14
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = MachineLib/CMakeFiles/MachineLib.dir

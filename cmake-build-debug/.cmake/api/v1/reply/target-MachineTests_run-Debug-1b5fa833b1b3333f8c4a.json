@@ -1,0 +1,480 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MachineTests/MachineTests_run"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"include",
+			"target_link_libraries",
+			"set_property",
+			"include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"MachineTests/CMakeLists.txt",
+			"/Volumes/TZPassport/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/UsewxWidgets.cmake",
+			"CMakeLists.txt",
+			"MachineLib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 49,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx -x c++-header"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXOSX__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/CanadianExperienceLib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/MachineTests/../MachineLib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/include/box2d"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/src/../include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/local/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/local/include/wx-3.2"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 15,
+					"header" : "/Volumes/TZPassport/CSE335/Project2Starter/MachineTests/../MachineLib/pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xclang -include-pch -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__WXOSX__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/CanadianExperienceLib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/MachineTests/../MachineLib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/include/box2d"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/box2d-src/src/../include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/local/lib/wx/include/osx_cocoa-unicode-3.2"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/local/include/wx-3.2"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Volumes/TZPassport/CSE335/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 15,
+					"header" : "/Volumes/TZPassport/CSE335/Project2Starter/MachineTests/../MachineLib/pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MachineLib::@abb2310f9ce8b326674a"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "box2d::@20f5237e34ad7ded9806"
+		}
+	],
+	"id" : "MachineTests_run::@49bfbd4702751a92d26f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "MachineLib/libMachineLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework Carbon",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework QuartzCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework AudioToolbox",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework System",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwx_osx_cocoau_core-3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwx_baseu-3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwx_osx_cocoau_xrc-3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwx_osx_cocoau_html-3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwx_baseu_xml-3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "_deps/box2d-build/bin/libbox2d.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MachineTests_run",
+	"nameOnDisk" : "MachineTests_run",
+	"paths" : 
+	{
+		"build" : "MachineTests",
+		"source" : "MachineTests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "MachineTests/gtest_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "MachineTests/MachineTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
